@@ -1,0 +1,142 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Set body background and layout */
+body {
+    background-color: #f4f6f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Styling for the form section */
+.data {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.data input {
+    width: 200px;
+    padding: 12px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.data input:focus {
+    border-color: #007bff;
+}
+
+/* Submit button styling */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Header for the list */
+#listebb {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+#listebb h4 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+}
+
+/* Styling for the item list */
+#barangbarang {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 30px;
+    max-height: 400px;
+    overflow-y: auto; /* Enable scroll if list overflows */
+}
+
+.hasil {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.hasil h4 {
+    font-size: 1rem;
+    color: #333;
+    margin-right: 20px;
+    flex: 1; /* Allow text to grow */
+}
+
+/* Remove button */
+.RemoveBtn {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.RemoveBtn:hover {
+    background-color: #c82333;
+}
+
+/* Total section */
+#Totalttt {
+    text-align: right;
+    width: 100%;
+    max-width: 800px;
+}
+
+#Totalttt h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
